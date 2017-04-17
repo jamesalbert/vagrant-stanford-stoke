@@ -1,8 +1,9 @@
 # vagrant-stanford-stoke
-installs Stanford's stoke compiler on ubuntu 16.04
 
 ![](http://www.wwll.com/images/logos/teams/stan-256.png)
 ![](http://www.wwll.com/images/logos/teams/uci-256.png)
+
+installs Stanford's stoke compiler on ubuntu 16.04
 
 # Synopsis
 
