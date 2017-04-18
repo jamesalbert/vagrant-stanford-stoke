@@ -8,5 +8,5 @@ Vagrant.configure("2") do |config|
     v.cpus = 20
   end
   config.vm.provision "shell", path: "sources/bootstrap.sh", privileged: true
-  # config.vm.synced_folder "./stoke", "/home/vagrant/stoke"
+  config.vm.synced_folder "./scripts", "/home/vagrant/scripts"
 end
