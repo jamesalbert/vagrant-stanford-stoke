@@ -18,6 +18,7 @@ cd stoke
 ./configure.sh
 make
 echo 'export PATH="$PATH:/home/vagrant/stoke/bin"' > /home/vagrant/.bashrc
+cd ..
 
 # install sana
 chmod 400 /home/vagrant/.ssh/id_rsa
