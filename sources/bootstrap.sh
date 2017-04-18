@@ -18,3 +18,10 @@ cd stoke
 ./configure.sh
 make
 echo 'export PATH="$PATH:/home/vagrant/stoke/bin"' > /home/vagrant/.bashrc
+
+# install sana
+chmod 400 /home/vagrant/.ssh/id_rsa
+git clone git@bitbucket.org:jamesrobertalbert/sana.git
+cd sana
+make
+cd ..
