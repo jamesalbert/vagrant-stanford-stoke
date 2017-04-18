@@ -22,6 +22,7 @@ cd ..
 
 # install sana
 chmod 400 /home/vagrant/.ssh/id_rsa
+ssh-keyscan bitbucket.org >> ~/.ssh/known_hosts
 git clone git@bitbucket.org:jamesrobertalbert/sana.git
 cd sana
 make
