@@ -4,8 +4,8 @@
 Vagrant.configure("2") do |config|
   config.vm.box = "bento/ubuntu-16.04"
   config.vm.provider "virtualbox" do |v|
-    v.memory = 51200
-    v.cpus = 20
+    v.memory = 100000
+    v.cpus = 60
   end
   config.vm.provision "file", source: "private/id_rsa", destination: "/home/vagrant/.ssh/id_rsa"
   config.vm.provision "shell", path: "sources/install_deps.sh"

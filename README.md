@@ -5,7 +5,7 @@
 
 installs Stanford's stoke compiler on ubuntu 16.04
 
-**warning**: you can see in `Vagrantfile` that the defaults for memory and cpu are 50Gb and 20 respectively. If you don't have the resources to support that, change them. This is meant to be run out of the box for UC Irvine's Openlab servers.
+**warning**: you can see in `Vagrantfile` that the defaults for memory and cpu are 100Gb and 60 respectively. If you don't have the resources to support that, change them. This is meant to be run out of the box for UC Irvine's Openlab servers.
 
 # Synopsis
 
