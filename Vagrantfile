@@ -7,8 +7,6 @@ Vagrant.configure("2") do |config|
     v.memory = 51200
     v.cpus = 20
   end
-  config.vm.provision "file", source: "private/id_rsa", destination: "/home/vagrant/.ssh/id_rsa"
   config.vm.provision "shell", path: "sources/install_deps.sh"
   config.vm.provision "shell", path: "sources/bootstrap.sh", privileged: false
-  config.vm.synced_folder "./scripts", "/home/vagrant/scripts"
 end
